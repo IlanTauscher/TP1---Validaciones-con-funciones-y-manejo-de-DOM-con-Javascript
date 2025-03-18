@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Ingrese la nota de matematica</h2>
+    <input type="number" id= "mat" placeholder="Nota de matematica" oninput="validarTodo(this.id)" onkeypress="validarTodo(this.id)">
+    <span id="mat-span"></span>
+    
+    <h2>Ingrese la nota de lengua</h2>
+    <input type="number" id= "leng"placeholder="Nota de lengua" oninput="validarTodo(this.id)" onkeypress="validarTodo(this.id)">
+    <span id="leng-span"></span>
+
+    <h2>Ingrese la nota de efsi</h2>
+    <input type="number" id= "efsi"placeholder="Nota de Efsi"oninput="validarTodo(this.id)" onkeypress="validarTodo(this.id)">
+    <span id="efsi-span"></span>
+
+    <div class = "resultado">
+        <span id="result-span"></span>
+    </div>
+
+    <button id="btn1">Mostrar promedio de notas</button>
+    <button id="btn2">Mostrar mejor nota</button>
+</body>
+<script src="script.js"></script>
+</html>
